@@ -1,0 +1,11 @@
+﻿   
+ @{
+      ViewBag.Title = "Index";
+     }
+
+<h2>PRODUCTOS</h2>
+
+@foreach (var producto in Model)
+{
+    <p>@producto.Descripcion</p>
+}
